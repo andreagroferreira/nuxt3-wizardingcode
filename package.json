@@ -3,6 +3,10 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "install": "./install.sh",
+    "docker:up": "make up",
+    "docker:up-d": "make up-d",
+    "docker:down": "make down",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",

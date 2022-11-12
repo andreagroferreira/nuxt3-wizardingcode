@@ -1,10 +1,11 @@
 <template>
   <div>
-    <h1 class="text-red-500 font-bold uppercase underline text-4xl my-10">{{ teste }} </h1>
-    <FormKit type="text"/>
+    <h1 class="my-10 text-4xl font-bold uppercase text-red-500 underline">
+      {{ teste }}
+    </h1>
+    <FormKit type="text" />
   </div>
 </template>
 <script setup>
-const teste = useUpperCase('teste');
+const teste = useUpperCase('sssssss111111')
 </script>
-
